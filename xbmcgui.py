@@ -106,7 +106,7 @@ class Window(object):
             Not python controls are not completely usable yet.
             You can only use the Control functions.
         """
-        return object
+        return ControlList
 
     def setFocus(self, Control):
         """Give the supplied control focus.
